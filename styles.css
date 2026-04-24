@@ -5085,6 +5085,23 @@ body.accessibility-widget-visible ._access-menu {
     display: none !important;
   }
 }
+
+.index-hero-section .index-hero-headshot-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.index-hero-section .index-hero-headshot {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  border: 3px solid rgba(187, 108, 74, 0.5);
+  box-shadow: 0 4px 20px rgba(59,50,43,0.22);
+  background-color: #e8ddd0;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
